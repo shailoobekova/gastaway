@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 93%;
+  margin: 0 auto;
+}
+body {
+  background-color: #191919;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav :first-child {
+  color: #118da8;
+}
+nav {
+  display: flex;
+  gap: 30px;
+}
+/* seaction */
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.textfirst h1 {
+  font-family: sans-serif;
+  font-weight: 400;
+  width: 550px;
+  font-size: 70px;
+}
+.levell {
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+}
+.level {
+  padding-left: 10px;
+}
+.textfirst2 {
+  padding-left: 20px;
+  margin-top: 100px;
+}
+.textfirst2 h3 {
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+.latest {
+  padding: 40px 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.latest h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.latest button {
+  background-color: #118da8;
+  width: 158px;
+  height: 51px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+.section {
+  padding: 40px;
+}
+/* block */
+.block {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.Box {
+  margin-bottom: 40px;
+  padding: 30px;
+  display: flex;
+  width: 1200px;
+  height: 465px;
+  gap: 40px;
+  background-color: black;
+  border: none;
+  border-radius: 32px;
+}
+.gear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  color: white;
+  background-color: #191919;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.Gear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  color: white;
+  background-color: #191919;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.texts a {
+  color: #118da8;
+}
+.Box h1 {
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.word {
+  font-size: 25px;
+  color: white;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+.texts button {
+  margin-top: 30px;
+  background-color: #118da8;
+  width: 158px;
+  height: 51px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+/* meet */
+.meet {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+.textmeet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.textmeet a {
+  color: #118da8;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+.textmeet h1 {
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.textmeet p {
+  color: rgba(255, 255, 255, 0.549);
+  width: 470px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+/* follow */
+.follow {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 400px;
+  width: 1350px;
+  height: 150px;
+  background-color: black;
+  border-radius: 25px;
+  padding: 50px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+input {
+  background-color: #191919;
+  width: 350px;
+  height: 50px;
+  border: none;
+  color: aliceblue;
+  border-radius: 6px;
+}
+.tex {
+  margin-left: -70px;
+}
+.tex a {
+  color: #118da8;
+}
+.tex h1 {
+  font-size: 70px;
+  font-family: sans-serif;
+  width: 390px;
+  margin-bottom: 40px;
+}
+.input button {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: #118da8;
+  border: none;
+  border-radius: 6px;
+}
+.ab {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/* sgaienbua */
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  margin: 10px;
+  padding: 50px;
+  width: 350px;
+  height: 280px;
+  background-color: black;
+  border-radius: 32px;
+}
+.box h1 {
+  width: 360px;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.box p {
+  color: rgba(255, 255, 255, 0.423);
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.footer {
+  width: 1200px;
+  margin-bottom: 40px;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+span {
+  color: white;
+  font-size: 20px;
+}
+.two,
+.three {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
